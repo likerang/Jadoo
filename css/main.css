@@ -1,2 +1,52 @@
 @import url('reset.css');
 @import url('common.css');
+
+header{
+  padding-top: 47px;
+  background: 
+    no-repeat url(../images/header_ellipse.svg),
+    no-repeat url(../images/header_bg.svg) right top;
+}
+header nav > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+nav h1 a{
+  background: no-repeat url(../images/logo.svg);
+  width: 116px;
+  height: 35px;
+  display: block;
+  text-indent: -99em;
+  overflow: hidden;
+}
+.top_menu{
+  display: flex;
+  align-items: center;
+}
+.top_menu ul{
+  display: flex;
+}
+.dropdown ul{
+  display: none;
+}
+.main_menu{
+  gap: 60px;
+  margin-right: 80px;
+}
+.login_menu{
+  gap: 30px;
+  margin-right: 30px;
+}
+.login_menu a{
+  padding: 0 21px;
+  border: 1px solid transparent;
+  line-height: 38px;
+  border-radius: 5px;
+  display: block;
+  box-sizing: border-box;
+  transition: .3s;
+}
+.login_menu a:hover{
+  border-color: #212832;
+}

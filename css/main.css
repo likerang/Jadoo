@@ -554,3 +554,29 @@ nav h1 a {
   margin-bottom: 5px;
   display: block;
 }
+.partners{
+  overflow: hidden;
+  margin: 138px 0 145px;
+}
+.partners ul{
+  display: flex;
+  left: 0;
+  position: relative;
+}
+.partners ul li{
+  padding: 0 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.partners ul li a{
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+}
+.partners ul li a:hover{
+  box-shadow: var(--shadow);
+}
+.partners ul li a img{
+  width: 100%;
+} /* 부모의 크기에 맞춰 너비를 100%로 ! */

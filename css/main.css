@@ -463,3 +463,94 @@ nav h1 a {
   border-radius:2.5px;
   transition:0.3s;
 }
+
+/*TESTIMONIAL*/
+.testimonials{
+  padding: 0 19px 0 51px;
+  display: flex;
+  gap: 87px;
+  position:relative;
+}
+.testimonials .header{
+  width: 409px;
+}
+.testimonials .header h3,
+.testimonials .header h2{
+  text-align: left;
+}
+.testimonials .header h2{
+  margin-bottom: 82px;
+}
+.testimonials .pager{
+  display: flex;
+  gap: 26px;
+}
+.testimonials .pager a{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #E5E5E5;
+  text-indent: -999em;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.testimonials .pager a.active{
+  background: #39425D;
+}
+.testimonials ul{
+  width: 589px;
+  height: 356px;
+  position:relative;
+}
+.testimonials .pagination{
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+ left: calc(100% + 47px);
+ display: flex;
+ flex-direction: column;
+ gap: 57px;
+}
+.testimonials .pagination button{
+  color: #BCB7C2;
+  transition: 0.3s;
+}
+.testimonials .pagination button:hover{
+  color: #3E2E4D;
+}
+
+.testimonials ul li{
+  width: 504px;
+  position: absolute;
+  left: 87px;
+  top: 124px;
+  background: #fff;
+  padding: 28px 68px 34px 34px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: 0.3s;
+}
+.testimonials ul li.active{
+  left: 37px;
+  top: 34px;
+  z-index: 1;
+}
+.testimonials ul li img{
+  position: absolute;
+  left: -37px;
+  top: -34px;
+}
+.testimonials ul li blockquote{
+  margin-bottom: 34px;
+}
+.testimonials ul li small{
+  font-size: 14px;
+  font-weight: 500px;
+}
+.testimonials ul li span{
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 5px;
+  display: block;
+}

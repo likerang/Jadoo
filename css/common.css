@@ -17,6 +17,14 @@
   --fz:16px;
   --lh:26px;
   --tc:#5E6282;
+  --shadow: 
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02), 
+    0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 
+    0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01), 
+    0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 
+    0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+    
 }
 
 /* layout */
@@ -36,21 +44,19 @@ body{
   font:500 var(--fz)/var(--lh) "Poppins", sans-serif;
   color:var(--tc);
 }
-
-.section-sub-tt{
-  text-align : center;
+.section-sub-tt {
+  text-align: center;
   font-size: 18px;
   line-height: 27px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #5E6282;
   margin-bottom: 10px;
 }
-.section-tt{
+.section-tt {
   text-align: center;
   text-transform: capitalize;
   font-family: "Volkhov", serif;
   font-weight: bold;
-  text-align : center;
   font-size: 50px;
   line-height: 65px;
   color: #14183E;
